@@ -1,0 +1,26 @@
+body{
+    display:flex;
+    flex-direction: column;
+    flex:1;
+
+}
+
+.top{
+    background-color: #1f2937;
+}
+
+.middle-top{
+    background-color: white;
+}
+
+.middle-bottom{
+    background-color: #e5e7eb;
+}
+
+.bottom{
+    background-color: #3882F6;
+}
+
+.footer{
+    background-color: #1f2937;
+}
