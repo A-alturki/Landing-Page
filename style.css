@@ -14,8 +14,8 @@ body{
 
 .top, .middle-top, .middle-bottom, .bottom{
     height:500px;
-    padding-left: 128px;
-    padding-right: 128px;
+    padding-left: 400px;
+    padding-right: 400px;
 }
 
 .header{
@@ -39,6 +39,7 @@ body{
 .top-center{
     display:flex;
     justify-content: space-between;
+    
 }
 
 .top-right{
@@ -84,12 +85,19 @@ body{
 .cards{
     display:flex;
     flex-direction: row;
-    gap:48px;
+    gap:96px;
     justify-content: center;
 }
 
 .middle-bottom{
+    display:flex;
     background-color: #e5e7eb;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    font-style:italic;
+    color:#1F2937;
 }
 
 .bottom{
@@ -123,13 +131,15 @@ img{
 .card img{
     display: flex;
 
-    width:200px;
-    height:200px;
+    width:250px;
+    height:250px;
     border: 4px solid #3882F6;
-    border-radius: 20px;;
+    border-radius: 20px;
+    margin-bottom: 8px;
 }
 .card{
-    width:200px;
+    width:250px;
     border:none !important;
     text-align: center;
 }
+
