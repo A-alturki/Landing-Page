@@ -150,16 +150,20 @@ body{
 
 .bottom{
     display:flex;
-    align-items: center;
-    justify-content: center;
     flex:1 1 500px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
 }
 
 .action{
+    width:70%;
     background-color: #3882F6;
     display:flex;
+    height: 150px;
+    border-radius: 10px;;
+    justify-content: space-around;
     align-items: center;
-    padding:300px 100px 300px 100px;
 }
 
 .footer{
