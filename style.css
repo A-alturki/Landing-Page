@@ -150,7 +150,7 @@ body{
 
 .bottom{
     display:flex;
-    flex:1 1 500px;
+    flex:1 1 400px;
     background-color: white;
     justify-content: center;
     align-items: center;
@@ -161,13 +161,35 @@ body{
     background-color: #3882F6;
     display:flex;
     height: 150px;
-    border-radius: 10px;;
-    justify-content: space-around;
+    border-radius: 7px;;
+    justify-content: center;
     align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    color:white;
+    
+}
+
+.action-left{
+    padding-right: 60%;
+}
+
+.action-left-top{
+    font-weight: 900;
+}
+
+.action-left-bottom{
+    font-weight: 100;
 }
 
 .footer{
     background-color: #1f2937;
+    color:white;
+    display:flex;
+    flex:1 1 75px;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
 }
 
 ul{
